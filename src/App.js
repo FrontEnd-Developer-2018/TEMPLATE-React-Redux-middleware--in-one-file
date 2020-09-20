@@ -29,11 +29,14 @@ class App extends React.Component {
         );
     }
 }
-App.propTypes = {
-    //dispatch: React.PropTypes.func,
+
+/*
+App.propTypes ={
+    dispatch: React.PropTypes.func,
     field: React.PropTypes.any,
     isWaiting: React.PropTypes.bool
 };
+*/
 
 const reducer = (state = { field: 'No data', isWaiting: false }, action) => {
     switch (action.type) {
