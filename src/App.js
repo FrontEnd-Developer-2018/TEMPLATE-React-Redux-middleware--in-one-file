@@ -1,6 +1,7 @@
 import * as React from 'react';
 import * as Redux from 'redux';
 import { Provider, connect } from 'react-redux';
+import PropTypes from 'prop-types';
 
 const ActionTypes = {
     STARTED_UPDATING: 'STARTED_UPDATING',
@@ -37,6 +38,11 @@ App.propTypes ={
     isWaiting: React.PropTypes.bool
 };
 */
+App.propTypes = {
+    dispatch: PropTypes.func,
+    field: PropTypes.any,
+    isWaiting: PropTypes.bool
+};
 
 const reducer = (state = { field: 'No data', isWaiting: false }, action) => {
     switch (action.type) {
