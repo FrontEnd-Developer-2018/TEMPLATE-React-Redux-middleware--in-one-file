@@ -1,3 +1,4 @@
-# react-ro4cgn
+#https://stackoverflow.com/questions/34570758/why-do-we-need-middleware-for-async-flow-in-redux
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/react-ro4cgn)
+
+Why do we need middleware for async flow in Redux?
